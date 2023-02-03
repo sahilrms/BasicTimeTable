@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        .container{
+            background-color: #5915a7;
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+            height: 700px;
+            gap: 2px;
+        }
+        .box{
+            background-color: #6d6cd3;
+        }
+        .box1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .box2,.box3,.box8{
+            
+            grid-row-start: span 2;
+            
+        }
+        .box5{
+            grid-column-start: span 2;
+        }
+        .box6{
+            grid-column-start: span 2;
+            grid-row-start: span 2;
+        }
+        .box9{
+            grid-column-start: span 2;
+        }
+    </style>
+</head>
+<body><div class="container">
+    <div class="box box1"><img src="https://images.pexels.com/photos/2519374/pexels-photo-2519374.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box1" height="233" width="790" ></div>
+    <div class="box box2"><img src="https://images.pexels.com/photos/1715184/pexels-photo-1715184.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box2" height="466" width="395" ></div>
+    <div class="box box3"><img src="https://images.pexels.com/photos/1161996/pexels-photo-1161996.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box3" height="466" width="395" width="200"></div>
+    <div class="box .box4"><img src="https://images.pexels.com/photos/2880476/pexels-photo-2880476.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box4" height="233" width="395" width="200"></div>
+    <div class="box box5"><img src="https://images.pexels.com/photos/5851030/pexels-photo-5851030.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box5" height="233" width="790" width="200"></div>
+    <div class="box box6"><img src="https://images.pexels.com/photos/3830464/pexels-photo-3830464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box6" height="466" width="790" width="200"></div>
+    <div class="box box7"><img src="https://images.pexels.com/photos/3932846/pexels-photo-3932846.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box7" height="233" width="395" width="200"></div>
+    <div class="box box8"><img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box8" height="466" width="395" width="200"></div>
+    <div class="box box9"><img src="https://images.pexels.com/photos/879109/pexels-photo-879109.jpeg?auto=compress&cs=tinysrgb&w=600" alt="box9" height="233" width="790" width="200"></div>
+</div>
+    
+
+</body>
+</html>
